@@ -1,0 +1,17 @@
+# ==============================================================================
+# HOSPITAL MANAGEMENT SYSTEM - DATABASE CONFIGURATION TEMPLATE
+# Copy this file to 'db.properties' in the same folder and set your credentials.
+# NEVER commit your production db.properties to version control.
+# ==============================================================================
+
+# Database Connection URL (MySQL Connector/J 8.x)
+db.url=jdbc:mysql://localhost:3306/hospital_management?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+
+# Database Username (default MySQL user is often 'root')
+db.username=root
+
+# Database Password (replace with your MySQL root password)
+db.password=your_password_here
+
+# Connection Pool / Timeout Configuration (milliseconds)
+db.loginTimeoutSeconds=5
